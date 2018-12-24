@@ -6,12 +6,12 @@ int My::BaseApplication::Initialize() {
 }
 
 
-void My::BaseApplication::Finaize() {
+void My::BaseApplication::Finalize() {
 }
 
-void My:BaseApplication::Tick() {
+void My::BaseApplication::Tick() {
 }
 
-bool My:BaseApplication::IsQuit() {
+bool My::BaseApplication::IsQuit() {
 	return m_bQuit;
 }
